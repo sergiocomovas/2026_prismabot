@@ -1,79 +1,70 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Aplicación con NestJS
 
+Este proyecto es una aplicación backend construida utilizando el framework **NestJS**, una solución moderna y progresiva para desarrollar aplicaciones del lado del servidor con Node.js y TypeScript.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Descripción
 
-## Description
+Este repositorio proporciona una base inicial para desarrollar una API RESTful utilizando NestJS. Está preparado para funcionar tanto en entornos de desarrollo como en producción, y ofrece herramientas para pruebas unitarias y de integración.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Requisitos previos
 
-## Installation
+- [Node.js](https://nodejs.org/) (recomendado: versión LTS)
+- [npm](https://www.npmjs.com/) o [Yarn](https://yarnpkg.com/)
+
+## Instalación
 
 ```bash
 npm install
 ```
 
-## Running the app
+## Ejecutar la aplicación
 
 ```bash
-# development
-$ npm run start
+# Modo desarrollo
+npm run start
 
-# watch mode
-$ npm run start:dev
+# Modo desarrollo con recarga automática
+npm run start:dev
+> localhost:300
 
-# production mode
-$ npm run start:prod
+# Modo producción
+npm run start:prod
 ```
 
-## Test
+## Pruebas
 
 ```bash
-# unit tests
-$ npm run test
+# Ejecutar pruebas unitarias
+npm run test
 
-# e2e tests
-$ npm run test:e2e
+# Ejecutar pruebas end-to-end (e2e)
+npm run test:e2e
 
-# test coverage
-$ npm run test:cov
+# Ver reporte de cobertura de tests
+npm run test:cov
 ```
 
-## Support
+## Soporte y comunidad
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+NestJS es un proyecto de código abierto con licencia MIT y cuenta con una comunidad activa. Puedes encontrar documentación detallada y ejemplos prácticos en su sitio oficial:
 
-## Stay in touch
+- Documentación oficial: [https://docs.nestjs.com](https://docs.nestjs.com)
+- Comunidad y soporte en Discord: [https://discord.gg/nestjs](https://discord.gg/nestjs)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## Recursos adicionales
 
-## License
+### Fuente
 
-Nest is [MIT licensed](LICENSE).
+- **Tutorial: Construir una aplicación Todo desde cero con NestJS y SQLite**  
+  Este artículo guía paso a paso en la creación de una aplicación de tareas utilizando NestJS y SQLite, abordando aspectos como la configuración del entorno, la estructura del proyecto y la implementación de funcionalidades CRUD.  
+  [https://just-program-it.com/2023/10/07/build-a-todo-app-from-scratch-nest-js-sqlite-mastery/](https://just-program-it.com/2023/10/07/build-a-todo-app-from-scratch-nest-js-sqlite-mastery/)
 
-## Fuente
+### Conversación Chat
 
-<https://just-program-it.com/2023/10/07/build-a-todo-app-from-scratch-nest-js-sqlite-mastery/>
+- **Discusión sobre la implementación de la aplicación Todo con NestJS y SQLite**  
+  En esta conversación se abordan dudas y se ofrecen soluciones relacionadas con la construcción de la aplicación Todo, incluyendo detalles sobre la configuración de SQLite y la estructura de los controladores en NestJS.  
+  [https://chatgpt.com/share/fda7e703-e6b2-4961-8fc2-28f0a5eda682](https://chatgpt.com/share/fda7e703-e6b2-4961-8fc2-28f0a5eda682)
 
-## Conversacion CHAT
+## Licencia
 
-[Chat](https://chatgpt.com/share/fda7e703-e6b2-4961-8fc2-28f0a5eda682)
+Este proyecto está licenciado bajo la [licencia MIT](https://opensource.org/licenses/MIT).
